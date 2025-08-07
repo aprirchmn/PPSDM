@@ -59,6 +59,23 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
+## How To Use It
+
+Untuk Windows (XAMPP/WAMP):
+Buka file php.ini
+
+- Cari dan hapus tanda ; (uncomment) di baris ini:
+
+extension=pgsql
+extension=pdo_pgsql
+
+- Restart Apache.
+- php artisan migrate
+- Buka Xampp Start Apache
+- Go to the link
+- http://localhost/PPSDM/public/pegawai untuk pegawai
+- http://localhost/PPSDM/public/ untuk public
+
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
