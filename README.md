@@ -62,6 +62,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## How To Use It
 
 Untuk Windows (XAMPP/WAMP):
+
 Buka file php.ini
 
 - Cari dan hapus tanda ; (uncomment) di baris ini:
