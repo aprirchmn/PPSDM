@@ -76,6 +76,7 @@ extension=pdo_pgsql
 - Go to the link
 - http://localhost/PPSDM/public/pegawai untuk pegawai
 - http://localhost/PPSDM/public/ untuk public
+- php artisan db:seed
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
